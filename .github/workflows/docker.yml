@@ -21,11 +21,12 @@ jobs:
           docker build ./c# -t aimvector/csharp:1.0.0
       - name: Docker build nodejs
         run: |
-          docker build ./nodejs# -t aimvector/nodejs:1.0.0
+          docker build ./nodejs -t aimvector/nodejs:1.0.0
       - name: Docker build python
         run: |
-          docker build ./python# -t aimvector/python:1.0.0
+          docker build ./python -t aimvector/python:1.0.0
       - name: Docker build golang
         run: |
-          docker build ./golang# -t aimvector/golang:1.0.0
+          docker build ./golang -t aimvector/golang:1.0.0
+
 
